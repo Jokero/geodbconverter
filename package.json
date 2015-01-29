@@ -15,6 +15,7 @@
   },
   "license":      "MIT",
   "preferGlobal": true,
+  "main":         "lib/index",
   "bin":          "./bin/geodbconverter.js",
   "dependencies": {
     "commander": "2.6.0",
