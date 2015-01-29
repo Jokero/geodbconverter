@@ -2,7 +2,7 @@
   "name":        "geodbconverter",
   "description": "Convert ipgeobase.ru DB to MaxMind GeoLiteCity",
   "version":     "0.0.1",
-  "author":      "Dmitry Kirilyuk",
+  "author":      "Dmitry Kirilyuk <gk.joker@gmail.com>",
   "keywords":    [
     "ipgeobase",
     "geolite",
