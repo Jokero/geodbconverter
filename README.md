@@ -1,6 +1,6 @@
 # geodbconverter
 
-[ipgeobase.ru](http://ipgeobase.ru/cgi-bin/Archive.cgi) DB to MaxMind GeoLiteCity convertion utility
+[ipgeobase.ru](http://ipgeobase.ru/cgi-bin/Archive.cgi) DB to MaxMind GeoLiteCity conversion utility
 
 ## Installation
 
