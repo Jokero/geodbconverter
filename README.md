@@ -12,4 +12,4 @@ To create GeoIP `GeoLiteCity-Blocks.csv` and `GeoLiteCity-Location.csv` files ru
 
 File `cities.txt` should be encoded in UTF-8.
 
-To convert `.csv` files to `.dat` use [mteodoro/mmutils](https://github.com/mteodoro/mmutils)
+To convert `.csv` files to `.dat` use [mteodoro/mmutils](https://github.com/mteodoro/mmutils).
