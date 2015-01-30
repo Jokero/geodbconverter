@@ -14,7 +14,7 @@ To create GeoIP `GeoLiteCity-Blocks.csv` and `GeoLiteCity-Location.csv` files ru
 
     geodbconverter [options] [outputDir]
 
-Options:
+#### Options:
 
     -h, --help                output usage information
     -V, --version             output the version number
@@ -25,7 +25,7 @@ Options:
     --ipblocks-output [path]  IP blocks output file name (by default "GeoLiteCity-Blocks.csv")
     --cities-output [path]    Cities output file name (by default "GeoLiteCity-Location.csv")
 
-Examples:
+#### Examples:
 
 Download db from ipgeobase server, convert and save to current directory:
 
