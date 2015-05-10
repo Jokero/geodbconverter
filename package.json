@@ -1,7 +1,7 @@
 {
   "name":        "geodbconverter",
-  "description": "Convert ipgeobase.ru DB to MaxMind GeoLiteCity",
-  "version":     "0.0.3",
+  "description": "Convert ipgeobase.ru DB to MaxMind GeoLiteCity format",
+  "version":     "1.0.0",
   "author":      "Dmitry Kirilyuk <gk.joker@gmail.com>",
   "keywords":    [
     "ipgeobase",
@@ -17,13 +17,15 @@
   "preferGlobal": true,
   "main":         "lib/index",
   "bin":          "./bin/geodbconverter.js",
+  "engines":      {
+    "node" : ">=0.12"
+  },
   "dependencies": {
-    "commander": "2.6.0",
-    "mkdirp":    "0.5.0",
-    "csv":       "0.4.1",
-    "request":   "2.51.0",
-    "unzip":     "0.1.11",
-    "iconv":     "2.1.5",
-    "q":         "1.1.2"
+    "commander":  "2.6.0",
+    "mkdirp":     "0.5.0",
+    "csv":        "0.4.1",
+    "request":    "2.51.0",
+    "unzip":      "0.1.11",
+    "iconv-lite": "0.4.8"
   }
 }

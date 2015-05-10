@@ -3,7 +3,6 @@
 var program = require('commander');
 var package = require('../package.json');
 var lib     = require('../lib');
-var q       = require('q');
 
 program
     .version(package.version)
@@ -57,7 +56,7 @@ function main() {
         citiesOutputFileName:   program.citiesOutput
     };
 
-    var promise = q.when();
+    var promise = Promise.resolve();
 
     if (program.local) {
         conversionOptions.ipBlocksInputFilePath = program.ipblocks;
